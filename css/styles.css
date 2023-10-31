@@ -1,0 +1,30 @@
+.container{
+    width: 1200px;
+    margin: auto;
+    background-color: aliceblue;
+}
+.header{
+    width: inherit;
+    height: 107px;
+    background-color: cornflowerblue;
+    border: 1px solid aliceblue;
+}
+.navbar{
+    width: inherit;
+    height: 103px;
+    background-color: lightsteelblue;
+    border: 1px solid aliceblue;
+}
+.content{
+    width: inherit;
+    height: 493px;
+    background-color: aliceblue;
+    float:left;
+    border: 1px solid white;
+}
+.footer{
+    width: inherit;
+    height: 103px;
+    background-color: green;
+    border: 1px solid aliceblue;
+}
