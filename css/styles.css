@@ -1,34 +1,32 @@
+/* Table of Contents
+    1. container
+    2. header
+    3. Navbar
+    4. Footer
+    5. Content
+    6. general styles
+
+ */
+
+/* 1. Container */
 .container{
     width: 1200px;
     margin: auto;
     background-color: aliceblue;
 }
+/* 2. Header */
 .header{
     width: inherit;
     height: 103px;
     background-color: lightsteelblue;
     border: 1px solid aliceblue;
 }
+/* 3. NavBar */
 .navbar{
     width: inherit;
     height: 46px;
     background-color: lightsteelblue;
     border: 1px solid aliceblue;
-}
-.content{
-    width: inherit;
-    height: 493px;
-    background-color: aliceblue;
-    border: 1px solid aliceblue;
-    color: lightslategrey;
-}
-.footer{
-    width: 1200px;
-    height: 46px;
-    background-color: lightsteelblue;
-    border: 1px solid aliceblue;
-    display: block;
-    color: floralwhite;
 }
 ul{
     list-style-type: none;
@@ -97,3 +95,42 @@ li a:hover{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* 4. Footer  */
+.footer{
+    width: 1200px;
+    height: 46px;
+    background-color: lightsteelblue;
+    border: 1px solid aliceblue;
+    display: block;
+    color: floralwhite;
+}
+/* 5. Content */
+.content{
+     width: inherit;
+     height: 493px;
+     background-color: aliceblue;
+     border: 1px solid aliceblue;
+     color: lightslategrey;
+ }
+.me{
+    height:250px;
+    width: 175px;
+    background-color: white;
+    float: left;
+    margin: 50px 7px 0px 25px;
+}
+.cardtwo{
+    height:250px;
+    width: 175px;
+    background-color: white;
+    float: left;
+    margin: 150px 7px 0px 45px;
+}
+.cardthr{
+    height:225px;
+    width: 150px;
+    background-color: white;
+    float: right;
+    margin: 150px 7px 0px 7px;
+}
+
