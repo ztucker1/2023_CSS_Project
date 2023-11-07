@@ -5,6 +5,7 @@
     4. Footer
     5. Content
     6. general styles
+    7. Cards
 
  */
 
@@ -101,8 +102,7 @@ li a:hover{
     height: 46px;
     background-color: lightsteelblue;
     border: 1px solid aliceblue;
-    display: block;
-    color: floralwhite;
+    color: cornflowerblue;
 }
 /* 5. Content */
 .content{
@@ -111,9 +111,12 @@ li a:hover{
      background-color: aliceblue;
      border: 1px solid aliceblue;
      color: lightslategrey;
+    float: left;
+
  }
+/* 7.Cards */
 .me{
-    height:250px;
+    height:225px;
     width: 175px;
     background-color: white;
     float: left;
@@ -132,5 +135,19 @@ li a:hover{
     background-color: white;
     float: right;
     margin: 150px 7px 0px 7px;
+}
+.cardHolder{
+    width: 1200px;
+    height: 330px;
+    background-color: aliceblue;
+    float: left;
+}
+.card{
+    height:200px;
+    width: 330px;
+    background-color: white;
+    float: left;
+    margin: 25px 7px 0px 7px;
+
 }
 
